@@ -1,18 +1,17 @@
-'''
-Here we will create a simple application which shows the color you specify.
-You have a window which shows the color and three trackbars to specify each of B,G,R colors.
-You slide the trackbar and correspondingly window color changes. By default, initial color will be set to Black.
+#'''
+#Here we will create a simple application which shows the color you specify.
+#You have a window which shows the color and three trackbars to specify each of B,G,R colors.
+#You slide the trackbar and correspondingly window color changes. By default, initial color will be set to Black.
 
-The callback function always has a default argument which is the trackbar position. In our case, function does nothing, so we simply pass.
+#The callback function always has a default argument which is the trackbar position. In our case, function does nothing, so we simply pass.
 
+#Another important application of trackbar is to use it as a button or switch.
+# open CV doenst have button functionality
+#So you can use trackbar to get such functionality.
+#In our application, we have created one switch in which application works only if switch is ON,
+#otherwise screen is always black.
 
-Another important application of trackbar is to use it as a button or switch.
-OpenCV, by default, doesn’t have button functionality.
-So you can use trackbar to get such functionality.
-In our application, we have created one switch in which application works only if switch is ON,
-otherwise screen is always black.
-'''
-
+#'''
 import cv2
 import numpy as np
 

@@ -106,9 +106,9 @@ CV_FONT_HERSHEY_SCRIPT_COMPLEX more complex variant of CV_FONT_HERSHEY_SCRIPT_SI
 
 cv.PutText(img, text, org, font, color)
 
-    org – Bottom-left corner of the text string in the image.
-    font – CvFont structure initialized using InitFont().
-    fontFace – Font type. One of FONT_HERSHEY_SIMPLEX, FONT_HERSHEY_PLAIN, FONT_HERSHEY_DUPLEX, FONT_HERSHEY_COMPLEX, FONT_HERSHEY_TRIPLEX, FONT_HERSHEY_COMPLEX_SMALL, FONT_HERSHEY_SCRIPT_SIMPLEX, or FONT_HERSHEY_SCRIPT_COMPLEX, where each of the font ID’s can be combined with FONT_ITALIC to get the slanted letters.
+    org Bottom-left corner of the text string in the image.
+    font CvFont structure initialized using InitFont().
+    fontFace Font type. One of FONT_HERSHEY_SIMPLEX, FONT_HERSHEY_PLAIN, FONT_HERSHEY_DUPLEX, FONT_HERSHEY_COMPLEX, FONT_HERSHEY_TRIPLEX, FONT_HERSHEY_COMPLEX_SMALL, FONT_HERSHEY_SCRIPT_SIMPLEX, or FONT_HERSHEY_SCRIPT_COMPLEX, where each of the font ID can be combined with FONT_ITALIC to get the slanted letters.
 '''
 font = cv2.FONT_HERSHEY_SIMPLEX
 text = 'OpenCV'

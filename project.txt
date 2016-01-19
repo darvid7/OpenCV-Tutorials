@@ -1,1 +1,8 @@
-the aim of the project
+Right now
+
+We want to use the leap motion to capture images of bees which can be sequenced into a video on which
+we can use software to analyze bee paths, movement, rotations, angles etc to get data
+
+1. work with leap motion
+2. get data from video
+3. analyze
