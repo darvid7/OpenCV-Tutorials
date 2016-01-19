@@ -3,13 +3,26 @@
 
 import numpy as np
 import cv2
+import os
+#############################################
+currentPath = os.path.abspath(os.getcwd())
+print currentPath
 
+oneFolderUp = os.path.dirname(os.getcwd())
+print oneFolderUp
+
+newpath = oneFolderUp + '/Resources'
+print newpath
+# sets up new path
+# writes to current dir
+# can read from new path :D
+###############################################
 # path to an image
-path = 'Resources/bee.jpg'
+
 # read image as: 1=colour, 0=grayscale, -1=unchanged
 flag = 1
 # read in image
-image1 = cv2.imread(path,flag)  # or .imread('path',1)
+image1 = cv2.imread(newpath + '/bee.jpg',flag)  # or .imread('path',1)
 print(image1) # prints how it is stored
 
 cv2.namedWindow('window1')
@@ -35,7 +48,7 @@ cv2.destroyAllWindows()
 cv2.imwrite('Images_filename.png', image1)
 
 
-imageTimeTable = cv2.imread('Resources/timetable.png',0)
+imageTimeTable = cv2.imread(newpath + '/timetable.png',0)
 cv2.imshow('Window: Timetable', imageTimeTable)
 key = cv2.waitKey(0)
 if key == 27: # escape key
@@ -66,7 +79,7 @@ pyplot.xticks([])
 pyplot.yticks([])
 pyplot.show()
 # correct colour :D
-image2 = pyplot.imread('Resources/bee2.png')
+image2 = pyplot.imread(newpath+ '/bee2.png')
 pyplot.imshow(image2, cmap='gray', interpolation= 'bicubic')
 pyplot.xticks([])
 pyplot.yticks([])

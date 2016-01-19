@@ -1,7 +1,7 @@
 import Tkinter
 import subprocess
+import cv2
 import os
-
 
 def somefunction():
     print 'start'
@@ -20,7 +20,7 @@ root.title = ('Test GUI')
 root.geometry('600x400')
 
 
-scriptButton = Tkinter.Button(root, text='run something', command = openApplication)
+scriptButton = Tkinter.Button(root, text='run something', command = somefunction)
 scriptButton.pack()
 
 

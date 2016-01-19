@@ -54,6 +54,26 @@ while(True):
 
     if switchVal == 0:
         canvasImage[:] = 0
+        print(canvasImage)
     else:
         canvasImage[:] = [blue, green, red]
+        print(canvasImage)
+'''
+above explained:
+canvasImage is a numpy construct
+[:] = 0 makes it black
+[:] = [b,g,r] takes the b,g,r values we get from track bar and make the canvasImage that colour
+this is a numpy thing
+
+the numpy construct looks like
+     b   g   r   cols
+ [[ 82 100 217]
+  [ 82 100 217]
+  [ 82 100 217]
+so we use the value to specify the column value for each pixel or something on those lines
+  ...,
+  [ 82 100 217]
+  [ 82 100 217]
+  [ 82 100 217]]]
+'''
 cv2.destroyAllWindows()

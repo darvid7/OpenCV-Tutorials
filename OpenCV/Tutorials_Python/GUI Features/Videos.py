@@ -1,10 +1,24 @@
 import numpy as np
 import cv2
-
+import os
 # to cap video need to create a VideoCapture object
 # argument can be device index or name of video file
 # device index is number to specify cam
 # pass 0 for cam 1, 1 for second cam ...
+
+#############################################
+currentPath = os.path.abspath(os.getcwd())
+print currentPath
+
+oneFolderUp = os.path.dirname(os.getcwd())
+print oneFolderUp
+
+newpath = oneFolderUp + '/Resources'
+print newpath
+# sets up new path
+# writes to current dir
+# can read from new path :D
+###############################################
 
 videoCapObj = cv2.VideoCapture(0)
 
@@ -49,7 +63,7 @@ cv2.destroyAllWindows()
 print('Can capture vid')
 # playing vid from file
 
-cap = cv2.VideoCapture('Resources/beePol.mp4')
+cap = cv2.VideoCapture((newpath + '/beePol.mp4')) # works
 
 while(cap.isOpened()):
     rets, aframe = cap.read()
@@ -94,7 +108,8 @@ For example, I can check the frame width and height by cap.get(3) and cap.get(4)
 print('h x w')
 print(height)
 print(width)
-fourCC = cv2.VideoWriter_fourcc('I','4','2','0')
+
+fourCC = cv2.cv.CV_FOURCC('I','4','2','0')
 #f4cc = int(capture.get(6))
 fps = int(capture.get(5))               # -1 works here in windows
 outputV = cv2.VideoWriter('outputvMAC.avi',fourCC, 20, (int(width), int(height)))

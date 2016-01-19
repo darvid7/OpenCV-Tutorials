@@ -85,6 +85,7 @@ reshaped = setOfPoints.reshape((-1,1,2))                            # these
 cv2.polylines(imgDrawOn,[reshaped],True,(0,255,255),5) # notice [reshaped] will draw the lines connecting dots
 cv2.polylines(imgDrawOn, reshaped, True, (255,0,255),6)  # will just draw dots
 
+
 # add text
 '''
 specify:
@@ -114,16 +115,17 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 text = 'OpenCV'
 colour = (255,255,255) # is white
 thickness = 2
-lineType = cv2.LINE_AA
+#lineType = cv2.LINE_AA
+# print cv2.CV_AA for open cv2 the above wont work
 
-cv2.putText(imgDrawOn,text,(10,500), font, 4, colour, thickness, lineType)
+cv2.putText(imgDrawOn,text,(10,500), font, 4, colour, thickness)
 # cv2.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv2.LINE_AA
 
 
 # draw on a saved image
 actualImage = cv2.imread('Images_filename.png')
 cv2.circle(actualImage, (250,250), 50, (100,100,255),4)
-cv2.putText(actualImage, 'IMA BEE', (20,500), cv2.FONT_HERSHEY_SIMPLEX, 3, (0,255,255), 5, cv2.LINE_AA)
+cv2.putText(actualImage, 'IMA BEE', (20,500), cv2.FONT_HERSHEY_SIMPLEX, 3, (0,255,255), 5)
 
 # use the following to display the images with all the drawings
 while (True):
