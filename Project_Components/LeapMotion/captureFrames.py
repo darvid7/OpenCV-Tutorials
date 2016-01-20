@@ -14,7 +14,7 @@ except ImportError:
     print'unable to locate path to Leap Motion SDK packages'
 
 class MyListener(Leap.Listener):
-    frameCount = 0
+    frameCount = 0 # class var
 
     def on_init(self, controler):
         print 'initialized'
@@ -28,11 +28,18 @@ class MyListener(Leap.Listener):
         img_list = frame.images
         left_img = img_list[0]
         right_img = img_list[1]
-        print 'Frame set ' + str(self.frameCount) + 'captured'
+        print 'Frame set ' + str(self.frameCount) + ' captured'
+        print type(left_img)
         self.frameCount += 1
         cv2.imwrite('testL.png',left_img)
         cv2.imwrite('testR.png', right_img)
 
+    def on_disconnect(self, controller):
+
+        print "Disconnected"
+
+    def on_exit(self, controller):
+        print "Exited"
 
 
 def main():

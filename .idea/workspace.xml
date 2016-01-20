@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83a416fc-7d70-4aab-ad68-24b939f688ca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project_Components/GUI/BeeTrackerGUI/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project_Components/GUI/BeeTrackerGUI/newGUI.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project_Components/LeapMotion/cpmy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project_Components/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/OpenCV-Project.iml" afterPath="$PROJECT_DIR$/.idea/OpenCV-Project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/captureFrames.py" afterPath="$PROJECT_DIR$/Project_Components/LeapMotion/captureFrames.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/mySample.py" afterPath="$PROJECT_DIR$/Project_Components/LeapMotion/mySample.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatVersions.py" afterPath="$PROJECT_DIR$/WhatVersions.py" />
     </list>
     <ignored path="OpenCV-Project.iws" />
@@ -36,12 +40,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="captureFrames.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="captureFrames.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/captureFrames.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74550897">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="60" selection-start-line="4" selection-start-column="0" selection-end-line="13" selection-end-column="60" />
+              <folding>
+                <marker date="1453252354000" expanded="true" signature="470:1185" placeholder="..." />
+                <marker date="1453252354000" expanded="true" signature="536:594" placeholder="..." />
+                <marker date="1453252354000" expanded="true" signature="717:1054" placeholder="..." />
+                <marker date="1453252354000" expanded="true" signature="1096:1126" placeholder="..." />
+                <marker date="1453252354000" expanded="true" signature="1199:1616" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/sample.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="160" column="34" selection-start-line="160" selection-start-column="34" selection-end-line="167" selection-end-column="44" />
+              <caret line="39" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,11 +76,55 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="hello.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/hello.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cpmy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/cpmy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.4074073">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1453253376000" expanded="true" signature="570:1644" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/a.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="WhatVersions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WhatVersions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newGUI.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Project_Components/GUI/BeeTrackerGUI/newGUI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,42 +137,6 @@
               <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="numpyStuff.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/numpyStuff.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Drawing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/Drawing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-              <folding>
-                <element signature="e#590#608#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="timetable.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/timetable.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bee2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/bee2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -165,18 +183,19 @@
         <option value="$PROJECT_DIR$/OpenCV/Tutorials_Python/numpyStuff.py" />
         <option value="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/Drawing.py" />
         <option value="$PROJECT_DIR$/OpenCV/Tutorials_Python/Core Operations/Basic-Images.py" />
-        <option value="$PROJECT_DIR$/WhatVersions.py" />
         <option value="$PROJECT_DIR$/Project_Components/LeapMotion/mySample.py" />
         <option value="$PROJECT_DIR$/Project_Components/LeapMotion/sample.py" />
         <option value="$PROJECT_DIR$/Project_Components/LeapMotion/captureFrames.py" />
+        <option value="$PROJECT_DIR$/Project_Components/LeapMotion/cpmy.py" />
+        <option value="$PROJECT_DIR$/WhatVersions.py" />
+        <option value="$PROJECT_DIR$/Project_Components/GUI/junk/newGUI.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="77" />
-    <option name="width" value="1183" />
-    <option name="height" value="709" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -185,7 +204,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -249,7 +268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LeapMotion" />
+              <option name="myItemId" value="GUI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,47 +282,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-Project" />
+              <option name="myItemId" value="Project_Components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV" />
+              <option name="myItemId" value="GUI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tutorials_Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tutorials_Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core Operations" />
+              <option name="myItemId" value="BeeTrackerGUI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,69 +306,18 @@
     <property name="last_opened_file_path" value="/usr/local/bin/python" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/OpenCV/Tutorials_Python/Core Operations" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Project_Components/GUI/BeeTrackerGUI" />
+      <recent name="$PROJECT_DIR$/Project_Components/GUI" />
       <recent name="$PROJECT_DIR$/OpenCV/Tutorials_Python" />
       <recent name="$PROJECT_DIR$/OpenCV/Tutorials_Python/Core Operations" />
       <recent name="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources" />
-      <recent name="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features" />
-      <recent name="$PROJECT_DIR$/GUI/junk" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OpenCV/Tutorials_Python/Core Operations" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.captureFrames">
-    <configuration default="false" name="Basic-Images" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV/Tutorials_Python/Core Operations" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenCV-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/Tutorials_Python/Core Operations/Basic-Images.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Drawing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenCV-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/Drawing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="WhatVersions" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenCV-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WhatVersions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.WhatVersions">
     <configuration default="false" name="captureFrames" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -412,6 +348,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenCV-Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_Components/LeapMotion/mySample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project_Components/LeapMotion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenCV-Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_Components/LeapMotion/hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cpmy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project_Components/LeapMotion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenCV-Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_Components/LeapMotion/cpmy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="WhatVersions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenCV-Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WhatVersions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -539,19 +526,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Basic-Images" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Drawing" />
-      <item index="2" class="java.lang.String" itemvalue="Python.WhatVersions" />
-      <item index="3" class="java.lang.String" itemvalue="Python.captureFrames" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mySample" />
+      <item index="0" class="java.lang.String" itemvalue="Python.captureFrames" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mySample" />
+      <item index="2" class="java.lang.String" itemvalue="Python.hello" />
+      <item index="3" class="java.lang.String" itemvalue="Python.cpmy" />
+      <item index="4" class="java.lang.String" itemvalue="Python.WhatVersions" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.captureFrames" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mySample" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Basic-Images" />
-        <item index="3" class="java.lang.String" itemvalue="Python.WhatVersions" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Drawing" />
+        <item index="0" class="java.lang.String" itemvalue="Python.WhatVersions" />
+        <item index="1" class="java.lang.String" itemvalue="Python.cpmy" />
+        <item index="2" class="java.lang.String" itemvalue="Python.hello" />
+        <item index="3" class="java.lang.String" itemvalue="Python.captureFrames" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mySample" />
       </list>
     </recent_temporary>
   </component>
@@ -569,19 +556,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="77" width="1183" height="709" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="717" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32544377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1765625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5034188" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.434375" sideWeight="0.4965812" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46141976" sideWeight="0.4965812" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -653,7 +640,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -791,18 +780,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WhatVersions.py">
+    <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/sample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/mySample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="169" column="0" selection-start-line="160" selection-start-column="4" selection-end-line="169" selection-end-column="0" />
+          <caret line="39" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -815,18 +796,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/sample.py">
+    <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/mySample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="160" column="34" selection-start-line="160" selection-start-column="34" selection-end-line="167" selection-end-column="44" />
+          <caret line="169" column="0" selection-start-line="160" selection-start-column="4" selection-end-line="169" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/captureFrames.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74550897">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="60" selection-start-line="4" selection-start-column="0" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <marker date="1453252354000" expanded="true" signature="470:1185" placeholder="..." />
+            <marker date="1453252354000" expanded="true" signature="536:594" placeholder="..." />
+            <marker date="1453252354000" expanded="true" signature="717:1054" placeholder="..." />
+            <marker date="1453252354000" expanded="true" signature="1096:1126" placeholder="..." />
+            <marker date="1453252354000" expanded="true" signature="1199:1616" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/cpmy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4074073">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1453253376000" expanded="true" signature="570:1644" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WhatVersions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project_Components/GUI/BeeTrackerGUI/newGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
