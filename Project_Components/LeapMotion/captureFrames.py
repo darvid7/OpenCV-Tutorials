@@ -13,26 +13,44 @@ try:
 except ImportError:
     print'unable to locate path to Leap Motion SDK packages'
 
-class MyListener():
+class MyListener(Leap.Listener):
+    frameCount = 0
+
     def on_init(self, controler):
         print 'initialized'
+        print self.frameCount
 
     def on_connect(self, controller):
-        print 'Connected to d'
+        print 'Connected to Leap Motion device'
+
+    def on_frame(self, controler):
+        frame = controler.frame()
+        img_list = frame.images
+        left_img = img_list[0]
+        right_img = img_list[1]
+        print 'Frame set ' + str(self.frameCount) + 'captured'
+        self.frameCount += 1
+        cv2.imwrite('testL.png',left_img)
+        cv2.imwrite('testR.png', right_img)
+
+
 
 def main():
-    listener = MyListener()
+    mylistener = MyListener()
     controller = Leap.Controller()
     # receive controller events
-    controller.add_listener(listener)
-    print 'Press ESC to quit'
-    while(1):
-        key = cv2.waitKey(1) & 0xFF
-        if key == 27:
-            controller.remove_listener(listener)
-            break
-        else:
-            pass
+    controller.add_listener(mylistener)
 
+    controller.set_policy(Leap.Controller.POLICY_IMAGES)
+    print 'Press ENTER to quit'
+
+
+    try:
+        sys.stdin.readline()
+    except KeyboardInterrupt:
+        pass
+    finally:
+        # Remove the sample listener when done
+        controller.remove_listener(mylistener)
 if __name__=="__main__":
     main()
