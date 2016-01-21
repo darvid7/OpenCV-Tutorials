@@ -1,6 +1,7 @@
 import sys
 from PyQt4 import QtGui
 from PyQt4 import QtCore
+import time
 
 class Window(QtGui.QMainWindow):
     # sets up a window
@@ -22,7 +23,6 @@ class Window(QtGui.QMainWindow):
 
         # menu
         mainMenu = self.menuBar()
-
         fileMenu = mainMenu.addMenu('&File')
         fileMenu.addAction(extractAction)
 
@@ -50,17 +50,51 @@ class Window(QtGui.QMainWindow):
 
         fileMenu.addAction(saveFile)
 
+        fileMenu.show()
+
+
+        #####
+           # menu items
+        actionCapture = QtGui.QAction("&Capture", self)
+        actionCapture.setShortcut("Shift+C")
+        actionCapture.setStatusTip("Go to the Capture window")
+        actionCapture.triggered.connect(self.holder)
+
+        actionAnalyze = QtGui.QAction("&Analyze", self)
+        actionAnalyze.setShortcut("Shift+A")
+        actionAnalyze.setStatusTip("Go to the Analyze window")
+        actionAnalyze.triggered.connect(self.holder)
+
+        actionInfoMe = QtGui.QAction("&Info Application", self)
+        actionInfoMe.setStatusTip("Info the application")
+        actionInfoMe.triggered.connect(self.holder)
+
+        sSuspendA = QtGui.QAction("&Suspend Application", self)
+        sSuspendA.setStatusTip("Suspend application")
+        sSuspendA.setShortcut("Ctrl+Q")
+        sSuspendA.triggered.connect(self.holder)
+
+        actionTest = QtGui.QAction("&Text", self)
+
+
+        fileMenu.addAction(sSuspendA)
+        fileMenu.addAction(actionInfoMe)
+        fileMenu.addAction(actionAnalyze)
+        fileMenu.addAction(actionCapture)
+        fileMenu.addAction(actionTest)
+        ####
+
         self.home()
 
         # sets up stuff on a particular window
 
 
     def home(self):
-        bExit = QtGui.QPushButton("Exit", self)
-        bExit.clicked.connect(self.close_application)
+        bSuspend = QtGui.QPushButton("Suspend", self)
+        bSuspend.clicked.connect(self.close_application)
                                 # if self.close_application() <- when you load into mem it will close every time
-        bExit.resize(bExit.sizeHint())
-        bExit.move(740,50)
+        bSuspend.resize(bSuspend.sizeHint())
+        bSuspend.move(740,50)
 
         # toolbar - page specific
                                                     # icon, hover text, self
@@ -125,6 +159,14 @@ class Window(QtGui.QMainWindow):
 
 
         self.show()
+        #time.sleep(5)
+        #self.hide()
+        self.test()
+
+    def test(self):
+        pb = QtGui.QPushButton("hi", self)
+        pb.show()
+        #self.hide()
 
     def colour_picker(self):
         colour = QtGui.QColorDialog.getColor()
