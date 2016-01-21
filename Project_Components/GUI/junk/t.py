@@ -3,40 +3,26 @@ import sys
 from PyQt4 import QtCore, QtGui
 
 
-try:
-    _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError:
-    def _fromUtf8(s):
-        return s
-try:
-    _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError:
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig)
-
-
-
-
 class Generic_UI(QtGui.QMainWindow):
     # sets up the generic window
     def __init__(self):
         super(Generic_UI, self).__init__()                      # super returns parent obj (QMainWindow obj)
         self.setGeometry(50,100,850,600)                        #           start x, y, w, h
         self.setWindowTitle("Bee Tracking Application")
+
+    # set new icon soon
     #    self.setWindowIcon(QtGui.QIcon("bee.jpg"))
 
         # menu items
         actionCapture = QtGui.QAction("&Capture", self)
         actionCapture.setShortcut("Shift+C")
         actionCapture.setStatusTip("Go to the Capture window")
-        actionCapture.triggered.connect(self.holder)
+        actionCapture.triggered.connect(self.on_capture)
 
         actionAnalyze = QtGui.QAction("&Analyze", self)
         actionAnalyze.setShortcut("Shift+A")
         actionAnalyze.setStatusTip("Go to the Analyze window")
-        actionAnalyze.triggered.connect(self.holder)
+        actionAnalyze.triggered.connect(self.on_analyze)
 
         actionInformation = QtGui.QAction("&Information", self)
         actionInformation.setStatusTip("About the application")
@@ -45,7 +31,12 @@ class Generic_UI(QtGui.QMainWindow):
         actionSuspendApp = QtGui.QAction("Suspend application", self)
         actionSuspendApp.setStatusTip("Exit application")
         actionSuspendApp.setShortcut("Ctrl+Q")
-        actionSuspendApp.triggered.connect(self.holder)
+        actionSuspendApp.triggered.connect(self.on_suspendApp)
+
+        actionDefaultSize = QtGui.QAction("Revert to default size", self)
+        actionDefaultSize.setStatusTip("Set window size to default")
+        actionDefaultSize.setShortcut("Shift+S")
+        actionDefaultSize.triggered.connect(self.on_defaultSize)
 
 
         mainMenu = self.menuBar()
@@ -55,14 +46,67 @@ class Generic_UI(QtGui.QMainWindow):
         applicationMenu.addAction(actionCapture)
         applicationMenu.addAction(actionSuspendApp)
         applicationMenu.addAction(actionInformation)
+        applicationMenu.addAction(actionDefaultSize)
         # http://stackoverflow.com/questions/11702621/why-doesnt-menu-get-added rip 3 hours
 
         self.statusBar() # bottom left hand corner when hover over menu action
 
         # self.show() # dont need this because this is acting as an abstract class
 
+
+    def show_window(self):
+        self.show()
+
+    def on_defaultSize(self):
+        self.setGeometry(50,100,850,600)
+    def on_analyze(self):
+        global curWindow
+        curWindow = 2
+        print 'on analyze'
+        self.windowController()
+
+    def on_capture(self):
+        global curWindow
+        curWindow = 1
+        print 'on capture'
+        self.windowController()
+
+    def windowController(self):
+        print '-------called------'
+        settings = self.geometry()
+        print "current window: " + str(curWindow)
+        print settings
+        global windows
+        for i in windows:
+            if i.window != curWindow:
+                print i.window
+                i.hide()
+            else:
+                print 'chosen'
+                print i.window
+                chosenWindow = i
+
+
+        chosenWindow.setGeometry(settings)
+        chosenWindow.show()
+
+
+
+
+    def on_suspendApp(self):
+        choice = QtGui.QMessageBox.question(self, 'You are leaving',
+                                            "Are you sure?",QtGui.QMessageBox.Yes | QtGui.QMessageBox.No )
+        if choice == QtGui.QMessageBox.Yes:                 # qt yes | <- means either/or qt no
+            print 'Goodbye'
+            sys.exit()
+        else:
+            pass
+
+    def on_information(self):
+        pass
+
     def holder(self):
-        print 'holder'
+        print 'holder function'
 
 class Capture_UI(Generic_UI):
     def __init__(self):
@@ -96,19 +140,15 @@ class Capture_UI(Generic_UI):
         self.spbFPS.setMaximum(200)
         self.spbFPS.setProperty("value", 100)
 
-        self.statusBar()
-
-        self.show()
-
 class Analyze_UI(Generic_UI):
     def __init__(self):
-        super(Capture_UI, self).__init__()
+        super(Analyze_UI, self).__init__()
         self.window = 2
 
         # image label
         self.lbImage = QtGui.QLabel("",self)
         self.lbImage.setGeometry(QtCore.QRect(40, 60, 441, 311))
-        self.lbImage.setPixmap(QtGui.QPixmap(_fromUtf8("../PycharmProjects/OpenCV-Project/OpenCV/Tutorials_Python/Resources/bee.jpg")))
+        self.lbImage.setPixmap(QtGui.QPixmap("../PycharmProjects/OpenCV-Project/OpenCV/Tutorials_Python/Resources/bee.jpg"))
         self.lbImage.setWordWrap(False)
         # average push button
         self.pbAvg = QtGui.QPushButton("Average", self)
@@ -122,37 +162,23 @@ class Analyze_UI(Generic_UI):
         # report push button
         self.pbReport = QtGui.QPushButton("Report",self)
         self.pbReport.setGeometry(QtCore.QRect(550, 270, 113, 32))
-        # 
-        self.progressBar = QtGui.QProgressBar(self.centralwidget)
+        # progress bar for images processed
+        self.progressBar = QtGui.QProgressBar(self)
         self.progressBar.setGeometry(QtCore.QRect(50, 380, 431, 41))
-        self.progressBar.setProperty("value", 24)
-        self.progressBar.setObjectName(_fromUtf8("progressBar"))
-        self.pbPrev = QtGui.QPushButton(self.centralwidget)
+        self.progressBar.setProperty("value", 0)
+        # prev push button
+        self.pbPrev = QtGui.QPushButton("Previous", self)
         self.pbPrev.setGeometry(QtCore.QRect(110, 420, 113, 32))
-        self.pbPrev.setObjectName(_fromUtf8("pbPrev"))
-        self.pbNext = QtGui.QPushButton(self.centralwidget)
+        # next push button
+        self.pbNext = QtGui.QPushButton("Next", self)
         self.pbNext.setGeometry(QtCore.QRect(250, 420, 113, 32))
-        self.pbNext.setObjectName(_fromUtf8("pbNext"))
-        self.pbSelAlbum = QtGui.QPushButton(self.centralwidget)
+        # Select album push button
+        self.pbSelAlbum = QtGui.QPushButton("Select Album", self)
         self.pbSelAlbum.setGeometry(QtCore.QRect(550, 120, 113, 32))
-        self.pbSelAlbum.setObjectName(_fromUtf8("pbSelAlbum"))
-        Analyze.setCentralWidget(self.centralwidget)
-        self.menubar = QtGui.QMenuBar(Analyze)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 22))
-        self.menubar.setObjectName(_fromUtf8("menubar"))
-        Analyze.setMenuBar(self.menubar)
-        self.statusbar = QtGui.QStatusBar(Analyze)
-        self.statusbar.setObjectName(_fromUtf8("statusbar"))
-        Analyze.setStatusBar(self.statusbar)
-
-        self.retranslateUi(Analyze)
-        QtCore.QMetaObject.connectSlotsByName(Analyze)
-
-
-
-
 
 def main():
+
+    global curWindow
     curWindow = 1
 
     app = QtGui.QApplication(sys.argv)
@@ -160,11 +186,13 @@ def main():
     captureWindow = Capture_UI()
     analyzeWindow = Analyze_UI()
 
+    global windows
     windows = [captureWindow, analyzeWindow]
 
-    for i in windows:
-        if i.window != curWindow:
-            i.hide()
+    captureWindow.show_window()
+
+    print captureWindow.geometry()
+
 
     sys.exit(app.exec_())
 

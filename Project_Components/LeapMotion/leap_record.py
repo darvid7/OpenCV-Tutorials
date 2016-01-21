@@ -2,12 +2,22 @@ import sys
 import os
 libPath = os.path.join(os.path.curdir, 'lib')
 sys.path.insert(0,libPath)
-import Leap
 import ctypes
 import numpy
 from PIL import Image
 import uuid
 import pdb
+
+try:
+    try:
+        import Leap
+        from Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGesture
+    except ImportError:
+        sys.path.append('/Users/David/Library/Python/2.7/lib/python/site-packages/LeapMotion')
+        #print(sys.path)
+        import Leap
+except ImportError:
+    print'unable to locate path to Leap Motion SDK packages'
 
 class SampleListener(Leap.Listener):
     guid=""
