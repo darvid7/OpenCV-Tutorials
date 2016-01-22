@@ -66,7 +66,7 @@ print img.shape
 ims = np.zeros((512,231), np.uint8)
 print str(ims.shape) + ': no colour img'
 # grayscale - just 2 values get printed as no colour
-
+print 'total below'
 print img.size # total no of pixles
 
 print img.dtype # img.dtype is very important while debugging because a large number of errors in OpenCV-Python code is caused by invalid datatype.
