@@ -2,136 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83a416fc-7d70-4aab-ad68-24b939f688ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/David.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Core Operations/Basic-Images.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/Drawing.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/Images.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/Images_filename.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/MouseEvents.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/TrackbarStuff.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/Videos.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/badthingshappened.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/outputvMAC.avi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/timetableGrey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Image Processing/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/bee.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/bee2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/beePol.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/beef1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/beef2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/beef3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/beef4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/cpy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/ky.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/timetable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/bee2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/imagegs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/numpyStuff.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/t.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/bee2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/gui.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/gui_test/analyze.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/gui_test/capture.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/gui_test/generic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/gui_test/lib/IR_5199.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/gui_test/lib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/gui_test/lib/bee2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/gui_test/lib/blank.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/gui_test/lib/leap_record.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/gui_test/mai.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/gui_test/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/lib/IR_5199.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/lib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/lib/bee2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/lib/blank.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/lib/leap_record.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/BeeTrackerGUI/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/Practice/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/Practice/bee.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/Practice/fromQTc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/Practice/idktest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/Practice/output.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/Practice/savenew thing" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/Practice/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/Practice/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/junk/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/junk/about.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/junk/analyze.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/junk/capture.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/junk/mainWindow.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/junk/something.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/junk/t.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/junk/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/junk/tst.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/leapmotionGUI.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/newGUI.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/GUI/threads.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/captureFrames.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/cpmy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/left/325663.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/left/325690.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/left/325714.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/left/325738.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/left/325757.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/left/325778.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/left/325802.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/left/325831.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/left/325851.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/left/325881.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/right/325663.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/right/325690.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/right/325714.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/right/325738.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/right/325757.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/right/325778.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/right/325802.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/right/325831.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/right/325851.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/050246C2-BF15-11E5-B682-A0999B0FED7D/right/325881.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324354.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324411.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324429.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324458.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324478.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324497.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324518.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324544.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324593.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324630.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324648.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324673.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/left/324692.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324354.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324411.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324429.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324458.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324478.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324497.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324518.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324544.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324593.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324630.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324648.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324673.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/images/CAD217C2-BF14-11E5-9D00-A0999B0FED7D/right/324692.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/leap_record.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/mySample.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/sample.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/LeapMotion/testSamplecv2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Parser/parser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="OpenCV-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -152,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WhatVersions.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WhatVersions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WhatVersions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16531605">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.02881356">
+              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -177,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeapMotion/mySample.py" />
         <option value="$PROJECT_DIR$/GUI/main.py" />
         <option value="$PROJECT_DIR$/OpenCV/Tutorials_Python/badthingshappened.py" />
         <option value="$PROJECT_DIR$/project.txt" />
@@ -228,6 +108,7 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/testDS.py" />
         <option value="$PROJECT_DIR$/Project_Components/Application/main.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -333,19 +214,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Project_Components/Application" />
+      <recent name="$PROJECT_DIR$/OpenCV" />
+      <recent name="$PROJECT_DIR$/Project_Components" />
+      <recent name="$PROJECT_DIR$/OpenCV/Tutorials_Python" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/python tutorials" />
       <recent name="$PROJECT_DIR$/test/AR_tutorials" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/OpenCV" />
       <recent name="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Project_Components/Application" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/OpenCV" />
-      <recent name="$PROJECT_DIR$/Project_Components" />
-      <recent name="$PROJECT_DIR$/OpenCV/Tutorials_Python" />
     </key>
   </component>
   <component name="RunManager" selected="Python.IdentifyInsect">
@@ -719,8 +600,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WhatVersions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16531605">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02881356">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
           <folding />
         </state>
       </provider>
