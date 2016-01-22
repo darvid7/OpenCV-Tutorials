@@ -2,31 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83a416fc-7d70-4aab-ad68-24b939f688ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenCV/bee2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project_Components/Application/lib/bee2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenCV/Tutorials_AR/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Image Processing/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenCV/Tutorials_Python/imagegs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenCV/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project_Components/Application/gui_test/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/AR_tutorials/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/python tutorials/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/python tutorials/tests.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Ball_Tracking/Working/ball_tracking.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Ball_Tracking/Working/ball_tracking_example.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Ball_Tracking/ball_tracking.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Ball_Tracking/myVersion/looking@libraries/deque (from collections).py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Ball_Tracking/myVersion/looking@libraries/numpy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Ball_Tracking/myVersion/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project_Components/Application/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project_Components/GUI/Practice/newGUI.py" afterPath="$PROJECT_DIR$/Project_Components/GUI/newGUI.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenCV/Tutorials_Python/bee2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenCV/Tutorials_Python/test.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Dol-Guldur-001.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Dol-Guldur-002.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Dol-Guldur-003.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Dol-Guldur-004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Dol-Guldur-005.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Goblin-001.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Goblin-002.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Goblin-003.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Goblin-004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Golbin-005.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Mordor-001.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Mordor-002.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Mordor-003.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Mordor-004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Mordor-005.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Rivendell-001.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Rivendell-002.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Rivendell-003.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Rivendell-004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Rivendell-005.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Shire-001.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Shire-002.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Shire-003.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Shire-004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/images/Shire-005.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/index.cpickle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/index.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/pyimagesearch/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/pyimagesearch/rgbhistogram.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/pyimagesearch/searcher.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/queries/rivendell-query.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/queries/shire-query.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/search.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/search_external.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)/tuteInfo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_AR/test_image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/AR_tutorials/Working/ball_tracking.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/AR_tutorials/Working/ball_tracking_example.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/AR_tutorials/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/AR_tutorials/ball_tracking.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/AR_tutorials/myVersion/looking@libraries/deque (from collections).py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/AR_tutorials/myVersion/looking@libraries/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/AR_tutorials/myVersion/looking@libraries/numpy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Core Operations/Basic-Images.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/GUI Features/Drawing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/GUI Features/Images.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/GUI Features/Images_filename.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/GUI Features/MouseEvents.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/GUI Features/TrackbarStuff.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/GUI Features/Videos.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/GUI Features/badthingshappened.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/GUI Features/outputvMAC.avi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/GUI Features/timetableGrey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Image Processing/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/bee.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/bee2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/beePol.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/beef1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/beef2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/beef3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/beef4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/cpy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/ky.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/Resources/timetable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/bee2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/imagegs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/numpyStuff.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/t.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python tutorials/tests.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Core Operations/Basic-Images.py" afterPath="$PROJECT_DIR$/OpenCV/Tutorials_Python/Core Operations/Basic-Images.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project_Components/GUI/junk/tst.py" afterPath="$PROJECT_DIR$/Project_Components/GUI/junk/tst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenCV/test.py" afterPath="$PROJECT_DIR$/OpenCV/test.py" />
     </list>
     <ignored path="OpenCV-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,96 +107,30 @@
         <entry file="file://$PROJECT_DIR$/OpenCV/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <caret line="8" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/python tutorials/test.py">
+        <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3443038">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.34605598">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/python tutorials/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bee2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/python tutorials/bee2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/python tutorials/t.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/python tutorials/Image Processing/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Basic-Images.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/python tutorials/Core Operations/Basic-Images.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Images_filename.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/python tutorials/GUI Features/Images_filename.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Images.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/python tutorials/GUI Features/Images.py">
+        <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/Images.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#130#148#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeapMotion/install.py" />
         <option value="$PROJECT_DIR$/LeapMotion/test.py" />
         <option value="$PROJECT_DIR$/LeapMotion/sample.py" />
         <option value="$USER_HOME$/Library/Python/2.7/lib/python/site-packages/test/.__init__.py" />
@@ -208,16 +197,17 @@
         <option value="$PROJECT_DIR$/OpenCV/Tutorials_Python/Core Operations/Basic-Images.py" />
         <option value="$PROJECT_DIR$/OpenCV/Tutorials_Python/Image Processing/test.py" />
         <option value="$PROJECT_DIR$/Project_Components/test.py" />
-        <option value="$PROJECT_DIR$/OpenCV/test.py" />
         <option value="$PROJECT_DIR$/test/test.py" />
         <option value="$PROJECT_DIR$/test/python tutorials/tests.py" />
+        <option value="$PROJECT_DIR$/OpenCV/test.py" />
+        <option value="$PROJECT_DIR$/testme.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="716" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -283,10 +273,6 @@
               <option name="myItemId" value="OpenCV-Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -308,14 +294,15 @@
       <recent name="$PROJECT_DIR$/OpenCV/Tutorials_AR/Image Search Engine (incomplete)" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Project_Components/Application" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/OpenCV" />
       <recent name="$PROJECT_DIR$/Project_Components" />
-      <recent name="$PROJECT_DIR$/Project_Components/Application/lib" />
-      <recent name="$PROJECT_DIR$/Project_Components/GUI/BeeTrackerGUI" />
-      <recent name="$PROJECT_DIR$/OpenCV/Tutorials_Python/Core Operations" />
+      <recent name="$PROJECT_DIR$/OpenCV/Tutorials_Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (2)">
-    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration default="false" name="test (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -327,75 +314,75 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenCV-Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_Components/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenCV-Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test (5)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV/Tutorials_Python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenCV-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/python tutorials/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/Tutorials_Python/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="testme" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/python tutorials/Image Processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenCV-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/python tutorials/Image Processing/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testme.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Images" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/python tutorials/GUI Features" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project_Components/Application" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenCV-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/python tutorials/GUI Features/Images.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/python tutorials" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenCV-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/python tutorials/tests.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_Components/Application/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -577,19 +564,19 @@
       <item index="0" class="java.lang.String" itemvalue="Python.mainWindow" />
       <item index="1" class="java.lang.String" itemvalue="Python.t" />
       <item index="2" class="java.lang.String" itemvalue="Python.newGUI" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test (2)" />
-      <item index="5" class="java.lang.String" itemvalue="Python.test (3)" />
-      <item index="6" class="java.lang.String" itemvalue="Python.Images" />
-      <item index="7" class="java.lang.String" itemvalue="Python.tests" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test (5)" />
+      <item index="6" class="java.lang.String" itemvalue="Python.testme" />
+      <item index="7" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tests" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Images" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test (3)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testme" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test (5)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -607,15 +594,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="714" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5034188" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34621328" sideWeight="0.4965812" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34728682" sideWeight="0.4965812" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -625,7 +613,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -668,30 +655,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/bee2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/Resources/timetable.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/Drawing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project_Components/LeapMotion/sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/LeapMotion/Leap.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -915,14 +878,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/Images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="33" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/t.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -974,50 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV/bee2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/python tutorials/Image Processing/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/python tutorials/Core Operations/Basic-Images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/python tutorials/GUI Features/Images_filename.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/python tutorials/GUI Features/Images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1026,33 +937,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/python tutorials/tests.py">
+    <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/GUI Features/Images.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/python tutorials/bee2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/python tutorials/t.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#130#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/python tutorials/test.py">
+    <entry file="file://$PROJECT_DIR$/OpenCV/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3443038">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/Tutorials_Python/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34605598">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding />
         </state>
       </provider>
