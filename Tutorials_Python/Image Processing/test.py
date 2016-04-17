@@ -15,6 +15,7 @@ newpath = oneFolderUp + '/Resources'
 print newpath
 
 '''
+
 bee1 = cv2.imread(newpath + '/beef1.jpg', 0)
 cv2.namedWindow('window1')
 cv2.imshow('window1',bee1)

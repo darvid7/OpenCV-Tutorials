@@ -35,12 +35,13 @@ What you are doing in this line, is selecting a pixel by x, y and z coordinates.
 The third index (the 0) in img[100,100,0] is the 0'th element in the array of the pixel's color values [B,G,R],
 thus your blue color channel.
 '''
+# img[y,x]
 
 # modify pixel
 img[523,342] = [255,0,0]
 # make a section blue
-for x in range(100,300):
-    for y in range(100,300):
+for x in range(0,300):
+    for y in range(100,1000):
         img[x,y] = [255,0,0]
 print img[412,123] # B,G,R breakdown for that pixel
 '''
